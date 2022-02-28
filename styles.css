@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.CalcBody {
+  display: flex;
+  margin-top: 5rem;
+  height: 28rem;
+  width: 20%;
+  background-color: red;
+  flex-direction: column;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.calcButtons {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+.calbutton {
+  padding: 0.5rem;
+  background-color: red;
+}
+
+button {
+  padding: 1.25rem;
+}
+
+.nScreen {
+  position: relative;
+  top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 1.5rem;
+  background-color: gray;
+  text-align: right;
+  border: 1px solid black;
+  border-radius: 1px;
+}
